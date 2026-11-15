@@ -1,0 +1,16 @@
+[project]
+name = "signaux"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "scipy>=1.13.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "with",
+    "class_test",
+]
